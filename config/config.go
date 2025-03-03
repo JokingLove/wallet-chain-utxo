@@ -35,6 +35,7 @@ type WalletNode struct {
 	Dash Node `yaml:"dash"`
 	Doge Node `yaml:"doge"`
 	Ltc  Node `yaml:"ltc"`
+	Kas  Node `yaml:"kas"`
 }
 
 type Config struct {

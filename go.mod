@@ -1,6 +1,8 @@
 module github.com/dapplink-labs/wallet-chain-utxo
 
-go 1.22.8
+go 1.23
+
+toolchain go1.24.0
 
 require (
 	github.com/btcsuite/btcd v0.24.2
@@ -10,6 +12,7 @@ require (
 	github.com/dapplink-labs/chain-explorer-api v0.0.3
 	github.com/ethereum/go-ethereum v1.14.8
 	github.com/go-resty/resty/v2 v2.15.3
+	github.com/kaspanet/kaspad v0.12.19
 	github.com/pkg/errors v0.9.1
 	github.com/shopspring/decimal v1.4.0
 	google.golang.org/grpc v1.67.1
@@ -24,6 +27,7 @@ require (
 	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
 	github.com/holiman/uint256 v1.3.1 // indirect
+	github.com/kaspanet/go-muhash v0.0.4 // indirect
 	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/sys v0.24.0 // indirect
